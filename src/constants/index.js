@@ -270,6 +270,9 @@ import {
       web_code_link: "https://cat-weather.netlify.app",
       source_code_link: "https://github.com/",
     },
+  ];
+
+  const projectsA = [
     {
       name: "Pixabay API",
       description:
@@ -352,6 +355,9 @@ import {
       web_code_link: "https://techapp.webflow.io/",
       source_code_link: "https://github.com/",
     },
+  ];
+
+  const projectsB = [
     {
       name: "Food Ordering",
       description:
@@ -384,4 +390,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, projects, projectsA, projectsB };
