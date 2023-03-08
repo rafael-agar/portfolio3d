@@ -39,6 +39,8 @@ import yoga from "./porject-yoga.webp";
 import webflowImg from "./porject-webflow.webp";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import restaurant from "./porject-restaurant-p.jpg"
+import furniture from "./porject-furniture-p.jpg"
 
 export {
   webflowImg,
@@ -79,4 +81,6 @@ export {
   wordpress,
   link,
   sass,
+  restaurant,
+  furniture,
 };

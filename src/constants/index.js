@@ -30,6 +30,8 @@ import {
     myfootordering,
     aura,
     sass,
+    restaurant,
+    furniture,
   } from "../assets";
 
   import csph from '../assets/company/csph.png';
@@ -242,7 +244,7 @@ import {
       ],
       image: aura,
       web_code_link: "https://elauracreativa.com/",
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/rafael-agar",
     },
     {
       name: "The Weather API",
@@ -268,7 +270,7 @@ import {
       ],
       image: weather,
       web_code_link: "https://cat-weather.netlify.app",
-      source_code_link: "https://github.com/",
+      source_code_link: "git@github.com:rafael-agar/weather-cat.git",
     },
   ];
 
@@ -297,7 +299,7 @@ import {
       ],
       image: pixabay,
       web_code_link: "https://pixa-cat.netlify.app",
-      source_code_link: "https://github.com/",
+      source_code_link: "git@github.com:rafael-agar/pixa-cat.git",
     },
     {
       name: "Yoga School",
@@ -323,7 +325,7 @@ import {
       ],
       image: yoga,
       web_code_link: "https://frolicking-horse-6a11b4.netlify.app/",
-      source_code_link: "https://github.com/",
+      source_code_link: "git@github.com:rafael-agar/yogaCat.git",
     },
     {
       name: "Blog",
@@ -353,7 +355,7 @@ import {
       ],
       image: webflowImg,
       web_code_link: "https://techapp.webflow.io/",
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/rafael-agar",
     },
   ];
 
@@ -386,7 +388,43 @@ import {
       ],
       image: myfootordering,
       web_code_link: "https://myfoodordering-demo.online",
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/rafael-agar",
+    },
+    {
+      name: "Restaurant - Figma",
+      description:
+        "Example Restaurant design.",
+      tags: [
+        {
+          name: "Figma",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Design",
+          color: "green-text-gradient",
+        },
+      ],
+      image: restaurant,
+      web_code_link: "../../porject-restaurant.jpg",
+      source_code_link: "https://github.com/rafael-agar",
+    },
+    {
+      name: "Ecommerce Furniture - Figma",
+      description:
+        "Example Ecommerce Furniture design.",
+      tags: [
+        {
+          name: "Figma",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Design",
+          color: "green-text-gradient",
+        },
+      ],
+      image: furniture,
+      web_code_link: "../../porject-furniture.jpg",
+      source_code_link: "https://github.com/rafael-agar",
     },
   ];
   
