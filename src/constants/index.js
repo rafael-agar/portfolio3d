@@ -32,6 +32,8 @@ import {
     sass,
     restaurant,
     furniture,
+    catFlix,
+    csphwww,
   } from "../assets";
 
   import csph from '../assets/company/csph.png';
@@ -166,33 +168,6 @@ import {
 
   ];
   
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-  ];
-  
   const projects = [
     {
       name: "A&B Bookcafe",
@@ -276,6 +251,40 @@ import {
 
   const projectsA = [
     {
+      name: "Netflix - beta version",
+      description:
+        "Beautiful Home Screen with all the movies working with CSS3 and BEM convention, log In and Log Out using Firebase Authentication, feching data The Movie DB.",
+      tags: [
+        {
+          name: "HTML",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "React",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Firebase",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Axios",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "BEM",
+          color: "green-text-gradient",
+        },
+      ],
+      image: catFlix,
+      web_code_link: "https://netflix-clone-cat.web.app/",
+      source_code_link: "https://github.com/rafael-agar/Netflix-clone-cat.git",
+    },
+    {
       name: "Pixabay API",
       description:
         "Personal project: Fetching Images From Pixabay API. ",
@@ -300,32 +309,6 @@ import {
       image: pixabay,
       web_code_link: "https://pixa-cat.netlify.app",
       source_code_link: "git@github.com:rafael-agar/pixa-cat.git",
-    },
-    {
-      name: "Yoga School",
-      description:
-        "Personal project: Yoga Wesite school, using https://elfsight.com/ widget for Calendar, Events and Staff list. All images in this project were minify by using a bash script",
-      tags: [
-        {
-          name: "HTML",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Saas",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Booststrap v4",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "elfsight",
-          color: "blue-text-gradient",
-        },
-      ],
-      image: yoga,
-      web_code_link: "https://frolicking-horse-6a11b4.netlify.app/",
-      source_code_link: "git@github.com:rafael-agar/yogaCat.git",
     },
     {
       name: "Blog",
@@ -427,5 +410,86 @@ import {
       source_code_link: "https://github.com/rafael-agar",
     },
   ];
+
+  const projectsC = [
+    {
+      name: "Yoga School",
+      description:
+        "Personal project: Yoga Wesite school, using https://elfsight.com/ widget for Calendar, Events and Staff list. All images in this project were minify by using a bash script",
+      tags: [
+        {
+          name: "HTML",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Saas",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Booststrap v4",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "elfsight",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: yoga,
+      web_code_link: "https://frolicking-horse-6a11b4.netlify.app/",
+      source_code_link: "git@github.com:rafael-agar/yogaCat.git",
+    },
+    {
+      name: "Futuristic Clothing Designs",
+      description:
+        "Personal project: Shopify Store, Product made with AI (Midjourney imagens and Logo, and Chat GPT texts)",
+      tags: [
+        {
+          name: "Shopify",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Midjoutney",
+          color: "green-text-gradient",
+        },
+        {
+          name: "ChatGPT",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "OpenAI",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: shopify,
+      web_code_link: "https://resplendent-youtiao-dafb5e.netlify.app",
+      source_code_link: "git@github.com:rafael-agar",
+    },
+    {
+      name: "CARLOS SOTO PH",
+      description:
+        "Website for Content Creator Group",
+      tags: [
+        {
+          name: "Wordpress",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Divi",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Divi Supreme",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: csphwww,
+      web_code_link: "https://carlossotoph.online/",
+      source_code_link: "git@github.com:rafael-agar/",
+    },
+  ];
   
-  export { services, technologies, experiences, testimonials, projects, projectsA, projectsB };
+  export { services, technologies, experiences, projects, projectsA, projectsB, projectsC };

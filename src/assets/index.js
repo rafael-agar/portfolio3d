@@ -25,7 +25,7 @@ import wordpress from "./tech/wordpress.png";
 import sass from "./tech/sass.png"
 
 import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
+// import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import csph from "./company/csph.png"
@@ -41,8 +41,13 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import restaurant from "./porject-restaurant-p.jpg"
 import furniture from "./porject-furniture-p.jpg"
+import catFlix from "./porject-catFlix.webp"
+import shopify from './porject-shopify.webp'
+import csphwww from "./porject-csph.webp"
 
 export {
+  shopify,
+  csphwww,
   webflowImg,
   aura,
   pixabay,
@@ -72,7 +77,6 @@ export {
   premier,
   webflow,
   meta,
-  shopify,
   starbucks,
   tesla,
   ayb,
@@ -83,4 +87,5 @@ export {
   sass,
   restaurant,
   furniture,
+  catFlix,
 };

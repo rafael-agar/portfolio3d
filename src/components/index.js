@@ -7,7 +7,7 @@ import Experience from './Experience';
 import Works from './Works';
 import WorksA from './WorksA';
 import WorksB from './WorksB';
-import Feedbacks from './Feedbacks';
+import WorksC from './WorksC';
 import Contact from './Contact';
 import Footer from './Footer';
 
@@ -20,7 +20,7 @@ export {
   Works,
   WorksA,
   WorksB,
-  Feedbacks,
+  WorksC,
   Contact,
   Footer,
   EarthCanvas, 
